@@ -1,0 +1,684 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Products page</title>
+<link rel="stylesheet" href="navigate.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+#a1{height:200px;width:200px;}
+
+#slider{
+     overflow:hidden;
+     }
+     #slider figure{
+     position:relative;
+     width:500%;
+     margin:0%;
+     left:0;
+     animation:20s slider infinite;
+     }
+     #slider figure img{
+     width:20%;
+     float:left;
+     }
+     @keyframes slider{
+     0%{left:0;}
+     20%{left:0;}
+     25%{left:-100%;}
+     45%{left:-100%;}
+     50%{left:-200%;}
+     70%{left:-200%;}
+     75%{left:-300%;}
+     95%{left:-300%;}
+     100%{left:-400%;}
+     }
+ 
+.border{
+    border-style:solid  none solid none;
+  margin-left:30px;
+  border-color:green;
+ border-spacing: 22px;
+}
+.head{
+font-size:150%;
+text-align:center;
+}
+
+</style>
+<body>
+
+  <div class="menu-bar">
+        <ul>
+    <li><a href="aboutus.html"><img src="about us.png" width="100px" height="80px"></a>
+        
+    <li><a href="#">Fruits & <br>Vegetables</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li class="hover-me"><a href="#z1">Fresh Fruits</a><i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="hover-me"><a href="#y1">Fresh Vegetables</a><i class="fa fa-angle-right"></i>
+                        </li>
+                        <li class="hover-me"><a href="#y1">Herbs & Seasoning</a><i class="fa fa-angle-right"></i>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Dairy&Bakery</a>
+                <div class="sub-menu-1">
+                    <ul>
+                       <li><a href="#x1">Dairy </a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#w1">Breads & Buns</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#w1">Cakes</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#w1">Cookies,Rusk</a><i class="fa fa-angle-right"></i>
+                       </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Staples</a>
+                 <div class="sub-menu-1">
+                     <ul>
+                       <li><a href="#u1">Atta,Flours&<br>Sooji</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#u1">Dals&Pulses</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#u1">Rice</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#u1">Edible Oils</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#u1">Dry Fruits</a><i class="fa fa-angle-right"></i>
+                       </li>
+                       <li><a href="#u1">Spices</a><i class="fa fa-angle-right"></i>
+                       </li>
+                      <li><a href="#u1">Salt,Sugar&<br>Jaggery</a><i class="fa fa-angle-right"></i>
+                      </li>
+                    </ul>
+              </div>
+           </li>
+           <li><a href="#">Snack&<br>Branded Foods</a>
+                <div class="sub-menu-1">
+                    <ul>
+                      <li><a href="#v1">Biscuit&Cookies</a><i class="fa fa-angle-right"></i>
+                      <li><a href="#v1">Noodle,Pasta </a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#v1">Namkeen</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#v1">Chocolate&Candies</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#v1">Spreads,Sauces</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#v1">Indian Sweets</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#v1">Pickel&Chutney</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+               </div>
+            </li>
+            <li><a href="#"> Beverages</a>
+                <div class="sub-menu-1">
+                    <ul>
+                      <li><a href="#t1">Tea</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#t1">Coffee</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#t1">Fruit Juices</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#t1">Energy&Soft Drinks</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#t1">Health Drink&Supplement</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#t1">Flavoured Milk</a><i class="fa fa-angle-right"></i></li>
+                  </ul>
+              </div>
+          </li>
+          <li><a href="#">Personal Care</a>
+              <div class="sub-menu-1">
+                  <ul>
+                      <li><a href="#">Hair Care</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#">Oral Care</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#">Bath&Hand <br>Wash</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#">Perfumes</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#">Covid Needs</a><i class="fa fa-angle-right"></i></li>
+                  </ul>
+              </div>
+          </li>
+          <li><a href="#">Home Care</a>
+              <div class="sub-menu-1">
+                 <ul>
+                     <li><a href="#s1">Detergents</a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">Dishwash</a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">All Purpose Cleaners</a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">Fresheners&<br>Repellents</a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">Mops,Brushes&<br>Scrubs </a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">Pooja Needs</a><i class="fa fa-angle-right"></i></li>
+                     <li><a href="#s1">Stationary</a><i class="fa fa-angle-right"></i></li>
+                 </ul>
+              </div>
+          </li>
+          
+          <li><a href="#">Eggs,Meat&<br>Fish</a>
+              <div class="sub-menu-1">
+                 <ul>
+                      <li><a href="#r1">Eggs</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#r1">Poultry</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#r1">Sausages</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#r1">Fish</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#r1">Bacon</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="#r1">Marinades</a><i class="fa fa-angle-right"></i></li>
+                  </ul>
+              </div>
+          </li>
+        </ul>
+   </div>
+
+   <div class="products">
+
+   </div>
+
+   <div id="slider">
+        <figure>
+            <img src="g1.jpg" height="500px" width="50px">
+            <img src="g2.jpg" height="500px" width="50px">
+            <img src="g3.jpg" height="500px" width="50px">
+            <img src="g4.jpg" height="500px" width="50px">
+            <img src="g5.jpg" height="500px" width="50px">
+      </figure>
+   </div>
+   <hr>
+   <br><br><br>
+
+   <ol>
+      <li id="z1" class="head">FRESH FRUITS</li>
+             <br>
+                  <table class="border">
+                      <tr>
+    
+                        <td><img src="apple.jpg" height="200px" width="200px"></td>
+                        <td><img src="banana.jpg" height="200px" width="200px"></td>
+                        <td><img src="orange.jpg" height="200px" width="200px"></td>
+                        <td><img src="kiwi.jpg" height="200px" width="200px"></td>
+                        <td><img src="mango.jpg" height="200px" width="200px"></td>
+                        <td><img src="grapes.jpg" height="200px" width="200px"></td>
+                      </tr>
+                      <tr>
+                        <th>APPLE</th>
+                        <th>BANANA</th>
+                        <th>ORANGE</th>
+                        <th>KIWI</th>
+                        <th>MANGO</th>
+                        <th>GRAPES</th>
+                     </tr>
+                     <tr>
+                        <td>MRP:100/kg</td>
+                        <td>MRP:30/kg</td>
+                        <td>MRP:100/kg</td>
+                        <td>MRP:40/kg</td>
+                        <td>MRP:50/kg</td>
+                        <td>MRP:100/kg</td>
+                     </tr>
+    <tr>
+  <td>Qty.<input type="number" id="z2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z3" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z4" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z5" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z6" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z7" name="q1" min="1" max="10"></td>
+    </tr>
+    <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+    <tr>
+    <td><img src="watermelon.jpg" height="200px" width="200px"></td>
+    <td><img src="melon.jpg" height="200px" width="200px"></td>
+    <td><img src="guava.jpg" height="200px" width="200px"></td>
+    <td><img src="strawberry.jpg" height="200px" width="200px"></td>
+    <td><img src="pomogarante.jpg" height="200px" width="200px"></td>
+    <td><img src="papaya.jpg" height="200px" width="200px"></td>
+    </tr>
+    <tr>
+  <th>WATERMELON</th>
+  <th>MELON</th>
+  <th>GUAVA</th>
+  <th>STRAWBERRY</th>
+  <th>POMEGRANATE</th>
+  <th>PAPAYA</th>
+  </tr>
+  <tr>
+  <td>MRP:50/kg</td>
+  <td>MRP:30/kg</td>
+  <td>MRP:50/kg</td>
+  <td>MRP:100/kg</td>
+  <td>MRP:150/kg</td>
+  <td>MRP:70/kg</td>
+  </tr>
+  
+    <tr>
+    <td>Qty.<input type="number" id="z8" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z9" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z10" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z11 "name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z12" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="z" 13name="q1" min="1" max="10"></td>
+  </tr>
+  
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  
+  </tr>
+  </table>
+ <br><br>
+ 
+ <li id="y1"  class="head">FRESH VEGETABLES</li>
+   <br>
+   <table class="border">
+   <tr>
+    
+  <td><img src="potato.jpg" height="200px" width="200px"></td>
+  <td><img src="onion.jpg" height="200px" width="200px"></td>
+  <td><img src="tomato.jpg" height="200px" width="200px"></td>
+  <td><img src="eggplant.jpg" height="200px" width="200px"></td>
+  <td><img src="carrot.jpg" height="200px" width="200px"></td>
+  <td><img src="okra.jpg" height="200px" width="200px"></td>
+    </tr>
+    <tr>
+      <th>POTATO</th>
+      <th>ONION</th>
+      <th>TOMATO</th>
+      <th>EGGPLANT</th>
+      <th>CARROT</th>
+     <th>OKRA</th>
+    </tr>
+  <tr>
+  <td>MRP:30/kg</td>
+  <td>MRP:20/kg</td>
+  <td>MRP:40/kg</td>
+  <td>MRP:50/kg</td>
+  <td>MRP:30/kg</td>
+  <td>MRP:20/kg</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y3" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y4" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y5" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  <td><img src="pumpkin.jpg" height="200px" width="200px"></td>
+  <td><img src="bellpepper.jpg" height="200px" width="200px"></td>
+  <td><img src="garlic.jpg" height="200px" width="200px"></td>
+  <td><img src="cauliflower.jpg" height="200px" width="200px"></td>
+  <td><img src="peas.jpg" height="200px" width="200px"></td>
+  <td><img src="spinach.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>PUMPKIN</th>
+      <th>BELLPEPPER</th>
+      <th>GARLIC</th>
+      <th>CAULIFLOWER</th>
+      <th>PEAS</th>
+     <th>SPINACH</th>
+    </tr>
+  <tr>
+  <td>MRP:20/kg</td>
+  <td>MRP:60/kg</td>
+  <td>MRP:100/kg</td>
+  <td>MRP:40/kg</td>
+  <td>MRP:100/kg</td>
+  <td>MRP:15/kg</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y3" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y4" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="y5" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+</table>
+<br><br>
+   <li id="x1"  class="head">DAIRY</li>
+   <br>
+   <table class="border">
+       <tr>
+    
+         <td><img src="milk.jpg" height="200px" width="200px"></td>
+         <td><img src="desighee.jpg" height="200px" width="200px"></td>
+         <td><img src="butter.jpg" height="200px" width="200px"></td>
+         <td><img src="curd.jpg" height="200px" width="200px"></td>
+         <td><img src="lassi.jpg" height="200px" width="200px"></td>
+         <td><img src="khoya.jpg" height="200px" width="200px"></td>
+       </tr>
+        <tr>
+      <th>MILK</th>
+      <th>DESIGHEE</th>
+      <th>BUTTER</th>
+      <th>CURD</th>
+      <th>LASSI</th>
+     <th>KHOYA</th>
+    </tr>
+       <tr>
+         <td>MRP:60/kg</td>
+         <td>MRP:480/kg</td>
+         <td>MRP:30/100gm</td>
+         <td>MRP:30/kg</td>
+         <td>MRP:30/100gm</td>
+         <td>MRP:200/kg</td>
+       </tr>
+       <tr>
+         <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+         <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+         <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+         <td>Qty.<input type="number" id="x3" name="q1" min="1" max="10"></td>
+         <td>Qty.<input type="number" id="x4" name="q1" min="1" max="10"></td>
+         <td>Qty.<input type="number" id="x5" name="q1" min="1" max="10"></td>
+       </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table>
+  <br><br>
+   <li id="w1"  class="head">BREAD & BUNS</li>
+   <br>
+   <table class="border">
+   <tr>
+    
+  <td><img src="browbread.jpg" height="200px" width="200px"></td>
+  <td><img src="whitebread.jpg" height="200px" width="200px"></td>
+  <td><img src="pizzabase.jpg" height="200px" width="200px"></td>
+  <td><img src="bun.jpg" height="200px" width="200px"></td>
+  <td><img src="pav.jpg" height="200px" width="200px"></td>
+  <td><img src="sweetbun.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>BROWN BREAD</th>
+      <th>WHITE BREAD</th>
+      <th>PIZZA BASE</th>
+      <th>BUN</th>
+      <th>PAV</th>
+     <th>SWEETBUN</th>
+    </tr>
+  <tr>
+  <td>MRP:35/packet</td>
+  <td>MRP:30/packet</td>
+  <td>MRP:40/packet</td>
+  <td>MRP:60/packet</td>
+  <td>MRP:60/packet</td>
+  <td>MRP:15/piece</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="x2" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="x3" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="x4" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="x5" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><BR><BR>
+   <li id="v1"  class="head">BRANDED ITEMS</li>
+   <br>
+   <table class="border">
+   <tr>
+    
+  <td><img src="biscuits.jpg" height="200px" width="200px"></td>
+  <td><img src="maggi.jpg" height="200px" width="200px"></td>
+  <td><img src="namkeen.jpg" height="200px" width="200px"></td>
+  <td><img src="chocolate.jpg" height="200px" width="200px"></td>
+  <td><img src="sauce.jpg" height="200px" width="200px"></td>
+  <td><img src="pickle.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>BISCUITS</th>
+      <th>MAGGI</th>
+      <th>NAMKEEN</th>
+      <th>CHOCOLATES</th>
+      <th>SAUCES</th>
+     <th>PICKEL</th>
+    </tr>
+  <tr>
+  <td>MRP:30/100gm</td>
+  <td>MRP:10/packet</td>
+  <td>MRP:45/100gm</td>
+  <td>MRP:40/piece</td>
+  <td>MRP:75/bottle</td>
+  <td>MRP:300/kg</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="v1" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><br><br>
+   <li id="u1"  class="head">STAPLES</li>
+   <br>  
+   <table class="border">
+   <tr>
+    
+  <td><img src="aata.jpg" height="200px" width="200px"></td>
+  <td><img src="dal.jpg" height="200px" width="200px"></td>
+  <td><img src="rice.jpg" height="200px" width="200px"></td>
+  <td><img src="edibleoil.jpg" height="200px" width="200px"></td>
+  <td><img src="salt.jpg" height="200px" width="200px"></td>
+  <td><img src="dryfruits.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>AATA</th>
+      <th>DAL</th>
+      <th>RICE</th>
+      <th>EDIBLE OIL</th>
+      <th>SALT & SUGAR</th>
+     <th>DRY FRUITS</th>
+    </tr>
+  <tr>
+  <td>MRP:40/kg</td>
+  <td>MRP:90/kg</td>
+  <td>MRP:80/kg</td>
+  <td>MRP:120/litre</td>
+  <td>MRP:20/kg</td>
+  <td>MRP:700/kg</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="u1" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><br><br>
+      <li id="t1"  class="head">BEVERAGES</li>
+   <br>  
+   <table class="border">
+   <tr>
+    
+  <td><img src="tea.jpg" height="200px" width="200px"></td>
+  <td><img src="coffee.jpg" height="200px" width="200px"></td>
+  <td><img src="fruitjuice.jpg" height="200px" width="200px"></td>
+  <td><img src="energydrinks.jpg" height="200px" width="200px"></td>
+  <td><img src="health.jpg" height="200px" width="200px"></td>
+  <td><img src="flavouredmilk.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>TEA</th>
+      <th>COFFEE</th>
+      <th>FRUIT JUICES</th>
+      <th>ENERGY DRINK</th>
+      <th>SUPPLEMENTS</th>
+     <th>FLAVOURED MILK</th>
+    </tr>
+  <tr>
+  <td>MRP:50/100gm</td>
+  <td>MRP:150/100gm</td>
+  <td>MRP:100/litre</td>
+  <td>MRP:300/litre</td>
+  <td>MRP:260/litre</td>
+  <td>MRP:30/100ml</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="t1" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><br><br>
+  <li id="s1"  class="head">HOME CARE</li>
+   <br>  
+   <table class="border">
+   <tr>
+    
+  <td><img src="detergents.jpg" height="200px" width="200px"></td>
+  <td><img src="dishwasher.jpg" height="200px" width="200px"></td>
+  <td><img src="freshners.jpg" height="200px" width="200px"></td>
+  <td><img src="mops.jpg" height="200px" width="200px"></td>
+  <td><img src="pooja.jpg" height="200px" width="200px"></td>
+  <td><img src="stationary.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>DETERGENTS</th>
+      <th>DISHWASHER</th>
+      <th>FRESHNERS</th>
+      <th>MOPS</th>
+      <th>POOJA</th>
+     <th>STATIONARY</th>
+    </tr>
+  <tr>
+  <td>MRP:372/kg</td>
+  <td>MRP:50/kg</td>
+  <td>MRP:265/piece</td>
+  <td>MRP:1000/piece</td>
+  <td>MRP:65/packet</td>
+  <td>MRP:345/packet</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="s1" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><br><br>
+  <li id="r1"  class="head">EGG MEAT & FISH</li>
+   <br>  
+   <table class="border">
+   <tr>
+    
+  <td><img src="eggs.jpg" height="200px" width="200px"></td>
+  <td><img src="fish.jpg" height="200px" width="200px"></td>
+  <td><img src="chicken.jpg" height="200px" width="200px"></td>
+  <td><img src="bacon.jpg" height="200px" width="200px"></td>
+  <td><img src="sausages.jpg" height="200px" width="200px"></td>
+    </tr>
+     <tr>
+      <th>EGGS</th>
+      <th>FISH</th>
+      <th>CHICKEN</th>
+      <th>BACON</th>
+      <th>SAUSAGES</th>
+    </tr>
+  <tr>
+  <td>MRP:72/dozen</td>
+  <td>MRP:300/kg</td>
+  <td>MRP:200/kg</td>
+  <td>MRP:284/kg</td>
+  <td>MRP:234/kg</td>
+  
+  </tr>
+  <tr>
+  <td>Qty.<input type="number" id="r1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="r1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="r1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="r1" name="q1" min="1" max="10"></td>
+  <td>Qty.<input type="number" id="r1" name="q1" min="1" max="10"></td>
+  </tr>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <td><center><button>Add</button><center></td>
+  <tr>
+  </tr>
+  </table><br><br>
+  
+  <li><center><a href="payment.html"><button class="button">PAY</button></center></li>
+   <br><br><br>
+ 
+  </ol>
+ </body>
+  </html>

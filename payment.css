@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+body{
+    background-color: rgb(219, 215, 209);
+	background-image:url("paym.jpg")
+ }
+.header{
+    background: rgba(58,162,162,0.16);
+    width:10%;
+    height:40px;
+    position:fixed;
+	color:black;
+	border-radius:10px;
+    cursor: grab;	
+}
+.header:hover{
+	color: rgb(219, 215, 209);
+  cursor: pointer;
+}
+ .address-block{
+    width: 39%;
+    height: 80%;
+    background-color: #32818166;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #addrs-heading{
+      font-family: 'changa';
+  }
+  #addrs,#addrsP{width: 50%;height: 10%;outline: none;margin-left: 4%;}
+  #city, #cityP{width: 50%;outline: none;margin-left: 4%;}
+  #state, #stateP{outline: none;margin-left: 4%;}
+  #pincode,#pincodeP{width:50%;outline: none;margin-left: 4%;}
+  #phoneNo, #phoneNoP{outline: none;margin-left: 4%;}
+   #k1{
+    width:30%;
+    height:8%;
+    font-family: 'changa';
+    font-size:120%;
+    color: white;
+    background-color:rgb(226, 71, 14);
+    border: 1px solid rgb(216, 59, 3);
+    border-radius: 5px;
+    margin-left: 32%;
+    margin-top: 10%;
+    cursor: grab;
+  }
+  #k1:hover{
+      background-color:rgb(253, 98, 42);
+      border: 2px solid rgb(216, 59, 3);
+  }
+  
+  /*payment section*/
+  #a4{
+      height:80%;
+      width:40%;
+      background-color: #32818166;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      z-index: -1;
+  }
+  
+  #a1{
+      text-align:center;
+      color:black;
+      font-family: 'changa';
+      font-size:160%;
+      font-weight: lighter;
+  }
+  
+  #logo{
+      width: 13%;
+      height: 13%;
+      position: absolute;
+      top: 2%;
+      left: 14%;
+  }
+  
+  
+  #detail{
+      font-family: 'changa';
+      font-size: 100%;
+      margin-top: 10%;
+      margin-left: 20px;
+      line-height: 5%;
+  }
+  /*payment confirm button*/
+  
+  #k2{
+    width:30%;
+    height:8%;
+    font-family: 'changa';
+    font-size:120%;
+    color: white;
+    background-color:rgb(226, 71, 14);
+    border: 1px solid rgb(216, 59, 3);
+    border-radius: 5px;
+    margin-left: 32%;
+    margin-top: 15%;
+    cursor: grab;
+  }
+  #k2:hover{
+      background-color:rgb(253, 98, 42);
+      border: 2px solid rgb(216, 59, 3);
+  }
+  
+  #a3{
+    width:55%;
+    height:27px;
+    font-size: 90%;
+    text-align: center;
+    border: 1px solid rgb(5, 214, 214);
+    border-radius: 4px;
+    outline: none;
+    transform: translateY(-105%);
+    margin-left: 39%;
+  }
+  #a3:hover{
+      border: 2px solid rgb(5, 214, 214);
+  }
+   /*expiry date input-box*/
+  #a03{
+      width:30%;
+      height:27px;
+      font-size: 90%;
+      text-align: center;
+      border: 1px solid rgb(5, 214, 214);
+      border-radius: 4px;
+      outline: none;
+      margin-top: 3%;
+      margin-left: 5%;
+  }
+  #a03:hover{
+      border: 2px solid rgb(5, 214, 214);
+  }
+    /*cvv part*/
+  #detail-cvv{
+      font-family: 'changa';
+      font-size: 100%;
+      position: absolute;
+      top: 59%;
+      left: 55%;
+  }
+  
+  
+  #a003{
+      width:15%;
+      height:27px;
+      font-size: 90%;
+      text-align: center;
+      border: 1px solid rgb(5, 214, 214);
+      border-radius: 4px;
+      margin-left: 22%;
+      outline: none;
+  }
+  #a003:hover{
+      border: 2px solid rgb(5, 214, 214);
+  }
+  body
+{
+animation: changeBg 5s infinite;
+alternate :linear;
+}
+@keyframes changeBg{
+    0%{
+        background:#ee6055 ;
+    }
+    25%
+    {
+        background: #60d394;
+    }
+    50%
+    {
+        background: #aaf683;
+    }
+    75%
+    {
+        background: #ffd97d;
+    }
+    100%
+    {
+        background: #ff9b85;
+    }
+}
